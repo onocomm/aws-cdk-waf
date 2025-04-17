@@ -39,6 +39,9 @@ npm run build
 # CDKブートストラップ（初回のみ）
 cdk bootstrap
 
+# テンプレート確認
+cdk synth
+
 # デプロイ
 cdk deploy
 ```

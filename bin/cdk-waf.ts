@@ -7,6 +7,6 @@ const app = new cdk.App();
 new CdkWafStack(app, `CdkWafStack`, {
   env: {
     account: process.env.CDK_DEFAULT_ACCOUNT,
-    region: process.env.CDK_DEFAULT_REGION,
+    region: 'us-east-1',
   }
 });
