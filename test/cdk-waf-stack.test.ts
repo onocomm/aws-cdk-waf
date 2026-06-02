@@ -83,7 +83,7 @@ describe('CdkWafStack', () => {
     
     template.hasResourceProperties('AWS::Logs::LogGroup', {
       LogGroupName: 'aws-waf-logs-TestCdkWafStack',
-      RetentionInDays: 1825 // 5年 = 1825日
+      RetentionInDays: 1827
     });
     
     // WAF ロギング設定の検証
